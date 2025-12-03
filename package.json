@@ -7,6 +7,15 @@
     "package": "vsce package",
     "publish": "vsce publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyanSalt/vscode-theme-porcelain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CyanSalt/vscode-theme-porcelain/issues"
+  },
+  "homepage": "https://github.com/CyanSalt/vscode-theme-porcelain#readme",
+  "publisher": "cyansalt",
   "engines": {
     "vscode": "^1.106.1"
   },
