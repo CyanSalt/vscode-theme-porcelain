@@ -1,5 +1,7 @@
 # vscode-theme-porcelain
 
+[![vscode](https://img.shields.io/visual-studio-marketplace/i/cyansalt.vscode-theme-porcelain?label=vs%20marketplace)](https://marketplace.visualstudio.com/items?itemName=cyansalt.vscode-theme-porcelain)
+[![ovsx](https://img.shields.io/open-vsx/v/cyansalt/vscode-theme-porcelain)](https://open-vsx.org/extension/cyansalt/vscode-theme-porcelain)
 
 <p align="center">
 <img src="icon.png" alt="Icon" width="96" height="96"><br>
