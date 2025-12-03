@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/CyanSalt/vscode-theme-porcelain#readme",
   "publisher": "cyansalt",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.106.1"
   },

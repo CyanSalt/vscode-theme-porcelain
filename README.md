@@ -1,5 +1,7 @@
 # vscode-theme-porcelain
 
+<img src="icon.png" alt="Icon" width="128" height="128">
+
 | Light | Dark |
 | --- | --- |
 | ![Light](https://github.com/user-attachments/assets/307326c0-15a1-4e00-afe0-0c5cb308c22c) | ![Dark](https://github.com/user-attachments/assets/8c25516d-ca69-41d7-b433-e652d6f0be1f) |
