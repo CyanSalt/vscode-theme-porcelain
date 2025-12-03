@@ -205,7 +205,7 @@
     "editorError.foreground": "#ed8796",
     "editorWarning.foreground": "#eed49f",
     "editorInfo.foreground": "#8aadf4",
-    "editorHint.foreground": "#91d7e3",
+    "editorHint.foreground": "#89dceb",
 
     "editorGutter.commentRangeForeground": "#ffffff50",
     "editorGutter.foldingControlForeground": "#ffffff90",

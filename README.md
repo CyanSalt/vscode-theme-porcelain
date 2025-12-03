@@ -24,5 +24,5 @@ Inspired by [Vitesse Theme](https://github.com/antfu/vscode-theme-vitesse), [Box
 
 ## Recommendation
 
-- File Icon Theme: [Catppuccin](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons) (Latte)
+- File Icon Theme: [Catppuccin](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons) (Latte for light, Mocha for dark)
 - Product Icon Theme: [Carbon](https://marketplace.visualstudio.com/items?itemName=antfu.icons-carbon)
