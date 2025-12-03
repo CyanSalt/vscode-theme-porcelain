@@ -1,0 +1,33 @@
+{
+  "name": "vscode-theme-porcelain",
+  "displayName": "vscode-theme-porcelain",
+  "description": "Porcelain theme for VSCode",
+  "version": "0.0.1",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Porcelain Light",
+        "uiTheme": "vs",
+        "path": "./themes/porcelain-light-color-theme.json"
+      },
+      {
+        "label": "Porcelain Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/porcelain-dark-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.7.1"
+  }
+}
