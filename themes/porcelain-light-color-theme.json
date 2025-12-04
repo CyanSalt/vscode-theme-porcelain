@@ -239,7 +239,12 @@
     // e.g. `Math` or `window` in javascript
     "variable.defaultLibrary": "#b12f4b",
     // `self` parameter in python
-    "selfParameter": "#b12f4b",
+    "selfParameter": {
+      "foreground": "#b12f4b",
+      "italic": true
+    },
+    // e.g. `Partial` in typescript
+    // "type.defaultLibrary": "#d56f34",
     // e.g. `str` in python
     // "class.typeHint.builtin": "#d56f34"
   },
@@ -358,8 +363,6 @@
         "support.constant",
         // CSS units
         "keyword.other.unit",
-        // TypeScript primitive types (e.g. `number`, `unknown`, `void`)
-        // "support.type.primitive",
         // TypeScript builtin types (e.g. `undefined`)
         "support.type.builtin"
       ],
@@ -387,12 +390,35 @@
         // "entity.name.class",
         // e.g. `Type` in `variable: Type`, or type declaration names
         "entity.name.type",
-        // keys in json and css (WHY HERE?)
-        "support.type",
         // e.g. `Promise` in javascript
         "support.class",
+        // Parent classes in javascript
+        "entity.other.inherited-class"
       ],
       "settings": {
+        "foreground": "#bd883d"
+      }
+    },
+    {
+      "name": "Keys",
+      "scope": [
+        // keys in json and css
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#bd883d"
+      }
+    },
+    {
+      "name": "Special Keys",
+      "scope": [
+        // CSS vendor-prefixed keys (e.g. `-webkit-box-orient`)
+        "support.type.vendored",
+        // e.g. `void` in typescript
+        // "support.type.primitive"
+      ],
+      "settings": {
+        "fontStyle": "italic",
         "foreground": "#bd883d"
       }
     },
@@ -407,12 +433,26 @@
       }
     },
     {
+      "name": "Deprecated Attributes",
+      "scope": [
+        // e.g. `align` for `p`
+        "invalid.deprecated.entity.other.attribute-name"
+      ],
+      "settings": {
+        "fontStyle": "strikethrough",
+        "foreground": "#8c57d1"
+      }
+    },
+    {
       "name": "Special Variables",
       "scope": [
         // e.g. `this` in javascript, `self` in python
-        "variable.language"
+        "variable.language",
+        // CSS vendor-prefixed values (e.g. `-webkit-box`)
+        "support.constant.vendored"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#b12f4b"
       }
     },
