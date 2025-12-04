@@ -252,17 +252,6 @@
       }
     },
     {
-      "name": "URL",
-      "scope": [
-        "*url*",
-        "*link*",
-        "*uri*"
-      ],
-      "settings": {
-        "fontStyle": "underline"
-      }
-    },
-    {
       "name": "Variables",
       "scope": [
         // Variables (e.g. `variable` in `variable = value`)
@@ -384,7 +373,9 @@
         // String contents
         "string",
         // String quotes
-        "punctuation.definition.string"
+        "punctuation.definition.string",
+        // Markdown code block language
+        "fenced_code.block.language"
       ],
       "settings": {
         "foreground": "#4d8e3e"
@@ -419,7 +410,7 @@
       "name": "Special Variables",
       "scope": [
         // e.g. `this` in javascript, `self` in python
-        "variable.language",
+        "variable.language"
       ],
       "settings": {
         "foreground": "#b12f4b"
@@ -437,6 +428,110 @@
       ],
       "settings": {
         "foreground": "#398e9d"
+      }
+    },
+    {
+      "name": "URL",
+      "scope": [
+        "*url*",
+        "*link*",
+        "*uri*"
+      ],
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Link",
+      "scope": [
+        "string.other.link"
+      ],
+      "settings": {
+        "foreground": "#4272d1"
+      }
+    },
+    {
+      "name": "Code",
+      "scope": [
+        "markup.inline.raw"
+      ],
+      "settings": {
+        "foreground": "#62748e"
+      }
+    },
+    {
+      "name": "Bold",
+      "scope": [
+        "heading",
+        "markup.bold"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Italic",
+      "scope": [
+        "markup.italic"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Strikethrough",
+      "scope": [
+        "markup.strikethrough"
+      ],
+      "settings": {
+        "fontStyle": "strikethrough"
+      }
+    },
+    {
+      "name": "Bold & Italic",
+      "scope": [
+        "markup.italic markup.bold",
+        "markup.bold markup.italic",
+        "heading markup.italic"
+      ],
+      "settings": {
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "Bold & Strikethrough",
+      "scope": [
+        "markup.strikethrough markup.bold",
+        "markup.bold markup.strikethrough"
+      ],
+      "settings": {
+        "fontStyle": "bold strikethrough"
+      }
+    },
+    {
+      "name": "Italic & Strikethrough",
+      "scope": [
+        "markup.strikethrough markup.italic",
+        "markup.italic markup.strikethrough"
+      ],
+      "settings": {
+        "fontStyle": "italic strikethrough"
+      }
+    },
+    {
+      "name": "Bold, Italic & Strikethrough",
+      "scope": [
+        "markup.italic markup.bold markup.strikethrough",
+        "markup.italic markup.strikethrough markup.bold",
+        "markup.strikethrough markup.bold markup.italic",
+        "markup.strikethrough markup.italic markup.bold",
+        "markup.bold markup.italic markup.strikethrough",
+        "markup.bold markup.strikethrough markup.italic",
+        "heading markup.italic markup.strikethrough",
+        "heading markup.strikethrough markup.italic"
+      ],
+      "settings": {
+        "fontStyle": "bold italic strikethrough"
       }
     }
   ]
