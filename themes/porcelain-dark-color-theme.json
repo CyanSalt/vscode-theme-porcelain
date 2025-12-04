@@ -139,7 +139,7 @@
     "editorBracketMatch.background": "#89b4fa20",
 
     "scrollbar.shadow": "#00000000",
-    "scrollbarSlider.background": "#ffffff10",
+    "scrollbarSlider.background": "#ffffff20",
     "scrollbarSlider.hoverBackground": "#ffffff50",
     "scrollbarSlider.activeBackground": "#ffffff50",
     "editorOverviewRuler.border": "#111111",
