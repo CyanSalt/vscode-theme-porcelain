@@ -80,7 +80,7 @@
     "notifications.border": "#e2e8f0",
     "notificationsErrorIcon.foreground": "#b12f4b",
     "notificationsWarningIcon.foreground": "#d56f34",
-    "notificationsInfoIcon.foreground": "#2996c2",
+    "notificationsInfoIcon.foreground": "#4272d1",
 
     "pickerGroup.border": "#e2e8f0",
     "pickerGroup.foreground": "#314158",
