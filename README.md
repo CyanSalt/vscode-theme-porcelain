@@ -9,7 +9,11 @@
 <img width="1024" alt="Porcelain Dark Screenshot" src="https://github.com/user-attachments/assets/75c136de-c7e0-4e78-914c-3806c650a351">
 </p>
 
-Inspired by [Vitesse Theme](https://github.com/antfu/vscode-theme-vitesse), [Boxy Theme Kit](https://github.com/trongthanh/vscode-boxythemekit) and [Nuxt UI](https://ui.nuxt.com/).
+Inspired by
+- Interface contrast from [Vitesse Theme](https://github.com/antfu/vscode-theme-vitesse)
+- Hue of the token coloring from [Boxy Theme Kit](https://github.com/trongthanh/vscode-boxythemekit)
+- Palette modified from [Catppuccin](https://github.com/catppuccin/catppuccin)
+- Color levels of foreground and background from [Nuxt UI](https://ui.nuxt.com/).
 
 ## Usage
 
