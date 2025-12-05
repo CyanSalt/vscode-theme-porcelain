@@ -2,7 +2,7 @@
   "name": "vscode-theme-porcelain",
   "displayName": "Porcelain Theme",
   "description": "Porcelain theme for VSCode",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "files": [
     "themes/*",
     "icon.png",
