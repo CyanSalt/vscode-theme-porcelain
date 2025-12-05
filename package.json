@@ -3,8 +3,15 @@
   "displayName": "Porcelain Theme",
   "description": "Porcelain theme for VSCode",
   "version": "0.1.5",
+  "files": [
+    "themes/*",
+    "icon.png",
+    "LICENSE"
+  ],
   "scripts": {
-    "package": "vsce package",
+    "build": "tsx ./scripts/index.mts",
+    "vscode:prepublish": "pnpm run build",
+    "package": "vsce package --no-dependencies",
     "publish": "vsce publish",
     "publish:ovsx": "ovsx publish"
   },
@@ -39,7 +46,14 @@
     ]
   },
   "devDependencies": {
+    "@cyansalt/eslint-config": "^4.5.0",
+    "@cyansalt/tsconfig": "^3.0.1",
+    "@types/node": "^24.10.1",
     "@vscode/vsce": "^3.7.1",
-    "ovsx": "^0.10.7"
+    "colord": "^2.9.3",
+    "eslint": "^9.39.1",
+    "ovsx": "^0.10.7",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   }
 }
