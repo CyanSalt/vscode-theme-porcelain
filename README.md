@@ -5,8 +5,8 @@
 
 <p align="center">
 <img src="icon.png" alt="Icon" width="96" height="96"><br>
-<img width="1024" alt="Porcelain Light Screenshot" src="https://github.com/user-attachments/assets/a4ff8ed5-0bd5-4fd2-89a7-008dd819646e"><br>
-<img width="1024" alt="Porcelain Dark Screenshot" src="https://github.com/user-attachments/assets/75c136de-c7e0-4e78-914c-3806c650a351">
+<img width="1024" alt="Porcelain Light Screenshot" src="screenshots/porcelain-light.png"><br>
+<img width="1024" alt="Porcelain Dark Screenshot" src="screenshots/porcelain-dark.png">
 </p>
 
 Inspired by
