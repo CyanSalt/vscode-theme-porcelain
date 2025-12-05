@@ -30,3 +30,11 @@ Inspired by
 
 - File Icon Theme: [Catppuccin](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons) (Latte for light, Mocha for dark)
 - Product Icon Theme: [Carbon](https://marketplace.visualstudio.com/items?itemName=antfu.icons-carbon)
+
+```jsonc
+// .vscode/setting.json
+{
+  "workbench.iconTheme": "catppuccin-latte",
+  "workbench.productIconTheme": "icons-carbon"
+}
+```
