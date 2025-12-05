@@ -28,6 +28,8 @@ Inspired by
 
 ## Recommendation
 
+### Icon Theme
+
 - File Icon Theme: [Catppuccin](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons) (Latte for light, Mocha for dark)
 - Product Icon Theme: [Carbon](https://marketplace.visualstudio.com/items?itemName=antfu.icons-carbon)
 
@@ -48,3 +50,14 @@ Additionally, we recommend using [Dynamic Icon Theme](https://marketplace.visual
   "icontheme.lightIconTheme": "catppuccin-latte"
 }
 ```
+
+### Font
+
+I use [Fira Code](https://github.com/tonsky/FiraCode) with ligatures enabled, but these fonts are also quite interesting:
+
+- [Annotation Mono](https://github.com/qwerasd205/AnnotationMono): A monospaced font with handwriting-style characters.
+- [Input Mono](https://input.djr.com/): A monospaced font with a modern look.
+
+### Terminal
+
+Porcelain themes include terminal colors. It looks fantastic when used with [Starship](https://starship.rs/).
