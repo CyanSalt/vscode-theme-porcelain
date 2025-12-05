@@ -12,8 +12,8 @@
     "build": "tsx ./scripts/index.mts",
     "vscode:prepublish": "pnpm run build",
     "package": "vsce package --no-dependencies",
-    "publish": "vsce publish",
-    "publish:ovsx": "ovsx publish"
+    "publish": "vsce publish --no-dependencies",
+    "publish:ovsx": "ovsx publish --no-dependencies"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   "publisher": "cyansalt",
   "icon": "icon.png",
   "engines": {
-    "vscode": "^1.106.1"
+    "vscode": "^1.81.0"
   },
   "categories": [
     "Themes"
