@@ -38,3 +38,13 @@ Inspired by
   "workbench.productIconTheme": "icons-carbon"
 }
 ```
+
+Additionally, we recommend using [Dynamic Icon Theme](https://marketplace.visualstudio.com/items?itemName=manuthebyte.dynamic-icon-theme) to change tour icon theme dynamically.
+
+```jsonc
+// .vscode/setting.json
+{
+  "icontheme.darkIconTheme": "catppuccin-mocha",
+  "icontheme.lightIconTheme": "catppuccin-latte"
+}
+```
