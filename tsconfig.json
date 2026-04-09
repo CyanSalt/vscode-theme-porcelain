@@ -1,5 +1,10 @@
 {
   "extends": "@cyansalt/tsconfig",
+  "compilerOptions": {
+    "types": [
+      "node"
+    ]
+  },
   "include": [
     "scripts",
     "*.config.mjs"

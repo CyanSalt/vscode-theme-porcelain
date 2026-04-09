@@ -47,12 +47,12 @@
   },
   "devDependencies": {
     "@cyansalt/eslint-config": "^4.5.0",
-    "@cyansalt/tsconfig": "^3.0.1",
-    "@types/node": "^24.10.1",
+    "@cyansalt/tsconfig": "^3.0.2",
+    "@types/node": "^24.12.2",
     "@vscode/vsce": "^3.7.1",
     "colord": "^2.9.3",
-    "eslint": "^9.39.1",
-    "ovsx": "^0.10.7",
+    "eslint": "^9.39.4",
+    "ovsx": "^0.10.10",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
