@@ -195,6 +195,7 @@ export function createPorcelainTheme(metadata: PorcelainThemeMetadata, colors: P
       'editor.foreground': colors.text.default,
       'editor.background': colors.bg.default,
       'editorWidget.background': colors.bg.default,
+      'editorWidget.border': colors.border.default,
       'editor.foldBackground': colord(grayColor).alpha(0x10 / 0xff).toHex(),
       'editor.lineHighlightBackground': colors.bg.elevated,
       'editorLineNumber.foreground': colord(colors.text.default).alpha(0x80 / 0xff).toHex(),
