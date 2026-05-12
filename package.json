@@ -9,6 +9,8 @@
     "LICENSE"
   ],
   "scripts": {
+    "lint": "eslint --fix .",
+    "lint:ci": "eslint --max-warnings 0 .",
     "build": "tsx ./scripts/index.mts",
     "vscode:prepublish": "pnpm run build",
     "package": "vsce package --no-dependencies",
@@ -42,6 +44,24 @@
         "label": "Porcelain Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/porcelain-dark-color-theme.json"
+      }
+    ]
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.15.0",
+      "onFail": "error"
+    },
+    "packageManager": [
+      {
+        "name": "pnpm",
+        "version": "^11.0.0",
+        "onFail": "error"
+      },
+      {
+        "name": "npm",
+        "onFail": "ignore"
       }
     ]
   },
