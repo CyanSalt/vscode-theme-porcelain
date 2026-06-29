@@ -15,6 +15,8 @@ Inspired by
 - Palette modified from [Catppuccin](https://github.com/catppuccin/catppuccin)
 - Color levels of foreground and background from [Nuxt UI](https://ui.nuxt.com/).
 
+Also see [zed-theme-porcelain](https://github.com/CyanSalt/zed-theme-porcelain).
+
 ## Usage
 
 ```jsonc
